@@ -1,15 +1,12 @@
-# Install Craft UI
+# Install Craft Design System
 
-> Craft UI will be installed as a [git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules) and will be placed in your `@/components` folder along with shadcn/ui. To recieve updates make sure to peroidically run
->
-> ```bash
-> git submodule init
-> git submodule update
-> ```
->
-> Alternatively, you can download the folder from releases and place in your components folder.
+```bash
+npm install craft-ds@latest
+```
 
-For examples of Craft UI, check out [craftui.org](https://craftui.org) or this [Repository](https://github.com/9d8dev/craft-examples).
+> Craft Design System is a collection of Layout Components to be used with NextJS, Tailwind, and Shadcn to make the building of websites and layouts much faster.
+
+For examples of Craft UI, check out [components.bridger.to](https://components.bridger.to), [craft.9d8.dev](https://craft.9d8.dev), or this [Repository](https://github.com/9d8dev/craft-examples).
 
 ## Create NextJS App With Tailwind
 

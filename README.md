@@ -39,7 +39,7 @@ import { fontFamily } from 'tailwindcss/defaultTheme';
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
- // Shadcn `tailwind.config.js`
+ // ... Shadcn `tailwind.config.js`
  plugins: [require('tailwindcss-animate'), require('@tailwindcss/typography')] // add this!
 };
 ```

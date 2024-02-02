@@ -1,0 +1,33 @@
+{
+  "name": "craft-ds",
+  "version": "0.1.0",
+  "description": "craft ui design system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bridger tower",
+  "license": "ISC",
+  "dependencies": {
+    "@radix-ui/react-dropdown-menu": "^2.0.6",
+    "@radix-ui/react-slot": "^1.0.2",
+    "@tailwindcss/typography": "^0.5.10",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "next-themes": "^0.2.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.51",
+    "@types/react-dom": "^18.2.18",
+    "tailwindcss": "^3.4.1"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "lucide-react": "^0.321.0",
+    "tailwindcss": "^3.4.1",
+    "react-wrap-balancer": "^1.1.0",
+    "tailwind-merge": "^2.2.1",
+    "tailwindcss-animate": "^1.0.7"
+  }
+}

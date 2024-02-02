@@ -16,7 +16,7 @@ For examples of Craft UI, check out [components.bridger.to](https://components.b
 npx create-next-app@latest my-app --typescript --tailwind --eslint
 ```
 
-## Install Dependencies
+### Install Peer Dependencies
 
 ```bash
 # Install Dependencies

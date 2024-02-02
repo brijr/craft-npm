@@ -6,5 +6,5 @@
     },
     "jsx": "react"
   },
-  "files": ["craft-ds.d.ts"]
+  "files": ["craft.d.ts"]
 }

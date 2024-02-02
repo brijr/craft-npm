@@ -10,7 +10,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "bridger tower",
+  "author": "Bridger Tower",
   "types": "craft.d.ts",
   "license": "ISC",
   "dependencies": {

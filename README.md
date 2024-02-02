@@ -34,15 +34,6 @@ npx shadcn-ui@latest init -y
 npx shadcn-ui@latest add -a
 ```
 
-### Install Craft
-
-```bash
-# Install Craft Components
-cd components
-git submodule add https://github.com/9d8dev/craft
-cd ../
-```
-
 ### Update `tailwind.config.ts`
 
 Replace the standard shadcn/ui `tailwind.config` to include the [Tailwind Typography](https://tailwindcss.com/docs/typography-plugin) plugin

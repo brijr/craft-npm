@@ -1,8 +1,12 @@
 {
   "name": "craft-ds",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "craft ui design system",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brijr/craft.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

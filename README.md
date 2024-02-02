@@ -28,11 +28,7 @@ npm install -D next-themes
 
 ### Install Shadcn/ui
 
-```bash
-# Install shadcn/ui and all components
-npx shadcn-ui@latest init -y
-npx shadcn-ui@latest add -a
-```
+[Follow these instructions for installation on a NextJS app](https://ui.shadcn.com/docs/installation/next)
 
 ### Update `tailwind.config.ts`
 

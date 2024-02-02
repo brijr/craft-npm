@@ -6,7 +6,7 @@ npm install craft-ds@latest
 
 > Craft Design System is a collection of Layout Components to be used with NextJS, Tailwind, and Shadcn to make the building of websites and layouts much faster.
 
-For examples of Craft UI, check out [components.bridger.to](https://components.bridger.to), [craft.9d8.dev](https://craft.9d8.dev), or this [Repository](https://github.com/9d8dev/craft-examples).
+For examples of Craft UI, check out 🔗 [components.bridger.to](https://components.bridger.to), 🔗 [craft.9d8.dev](https://craft.9d8.dev), or this 🔗 [Repository](https://github.com/9d8dev/craft-examples).
 
 ## Getting Setup
 
@@ -28,7 +28,7 @@ npm install -D next-themes
 
 ### Install Shadcn/ui
 
-[Follow these instructions for installation on a NextJS app](https://ui.shadcn.com/docs/installation/next)
+🔗 [Follow these instructions for installation on a NextJS app](https://ui.shadcn.com/docs/installation/next)
 
 ### Update `tailwind.config.ts`
 

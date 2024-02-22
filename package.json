@@ -8,7 +8,7 @@
     "url": "git+https://github.com/brijr/craft.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:css": "tailwindcss -o dist/styles.css --minify"
   },
   "author": "Bridger Tower",
   "types": "craft.d.ts",
@@ -33,9 +33,9 @@
     "next-themes": "^0.2.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
+    "react-wrap-balancer": "^1.1.0",
     "tailwind-merge": "^2.2.1",
     "tailwindcss": "^3.4.1",
-    "tailwindcss-animate": "^1.0.7",
-    "react-wrap-balancer": "^1.1.0"
+    "tailwindcss-animate": "^1.0.7"
   }
 }

@@ -5,6 +5,6 @@ export {
   Section,
   Container,
   Article,
-} from "./components/layout";
-export * from "./components/theme/theme-toggle";
-export * from "./components/theme/theme-provider";
+} from "./src/components/layout";
+export * from "./src/components/theme/theme-toggle";
+export * from "./src/components/theme/theme-provider";

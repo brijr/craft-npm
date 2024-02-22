@@ -1,6 +1,7 @@
 import * as React from "react";
 import { cn } from "../lib/utils";
 import { ThemeProvider } from "./theme/theme-provider";
+import "../../dist/styles.css";
 
 // LAYOUT
 // Layout Component

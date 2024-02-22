@@ -49,6 +49,11 @@ declare module "craft-ds" {
   }
   export const Layout: React.ComponentType<LayoutProps>;
 
+  export interface ThemeProps {
+    children: React.ReactNode;
+  }
+  export const Theme: React.ComponentType<ThemeProps>;
+
   export interface MainProps {
     children: React.ReactNode;
     className?: string;

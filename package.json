@@ -1,6 +1,6 @@
 {
   "name": "craft-ds",
-  "version": "0.1.9",
+  "version": "0.1.92",
   "description": "craft ui design system",
   "main": "index.js",
   "repository": {
@@ -29,7 +29,7 @@
     "typescript": "^5.3.3"
   },
   "peerDependencies": {
-    "lucide-react": "^0.309.0",
+    "lucide-react": "*",
     "next-themes": "^0.2.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",

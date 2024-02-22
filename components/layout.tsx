@@ -13,6 +13,7 @@ const Layout = ({ children, className }: LayoutProps) => {
   return (
     <html
       lang="en"
+      suppressHydrationWarning
       className={cn("antialiased scroll-smooth focus:scroll-auto", className)}
     >
       <ThemeProvider

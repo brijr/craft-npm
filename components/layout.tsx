@@ -15,16 +15,14 @@ const Layout = ({ children, className }: LayoutProps) => {
       lang="en"
       className={cn("antialiased scroll-smooth focus:scroll-auto", className)}
     >
-      <body className={className}>
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
-        >
-          {children}
-        </ThemeProvider>
-      </body>
+      <ThemeProvider
+        attribute="class"
+        defaultTheme="system"
+        enableSystem
+        disableTransitionOnChange
+      >
+        {children}
+      </ThemeProvider>
     </html>
   );
 };

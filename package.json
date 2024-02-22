@@ -1,6 +1,6 @@
 {
   "name": "craft-ds",
-  "version": "0.1.95",
+  "version": "0.1.96",
   "description": "craft ui design system",
   "main": "index.js",
   "repository": {
@@ -33,9 +33,9 @@
     "next-themes": "^0.2.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-wrap-balancer": "^1.1.0",
     "tailwind-merge": "^2.2.1",
     "tailwindcss": "^3.4.1",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "react-wrap-balancer": "^1.1.0"
   }
 }

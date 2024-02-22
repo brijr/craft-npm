@@ -16,15 +16,26 @@ const Layout = ({ children, className }: LayoutProps) => {
       suppressHydrationWarning
       className={cn("antialiased scroll-smooth focus:scroll-auto", className)}
     >
-      <ThemeProvider
-        attribute="class"
-        defaultTheme="system"
-        enableSystem
-        disableTransitionOnChange
-      >
-        {children}
-      </ThemeProvider>
+      {children}
     </html>
+  );
+};
+
+// Theme Component
+type ThemeProps = {
+  children: React.ReactNode;
+};
+
+const Theme = ({ children }: ThemeProps) => {
+  return (
+    <ThemeProvider
+      attribute="class"
+      defaultTheme="system"
+      enableSystem
+      disableTransitionOnChange
+    >
+      {children}
+    </ThemeProvider>
   );
 };
 
@@ -108,4 +119,4 @@ const Article = ({ children, className, id }: ArticleProps) => {
   );
 };
 
-export { Layout, Main, Section, Container, Article };
+export { Layout, Theme, Main, Section, Container, Article };
